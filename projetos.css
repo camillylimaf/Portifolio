@@ -1,0 +1,207 @@
+*{
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans+Narrow:wght@400;700&display=swap')
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+background-color: rgb(248, 253, 248);
+max-width: 100.1rem;
+margin: 0 auto;
+font-family: 'Lato', sans-serif;
+background-image: url("#"); 
+background-size: cover;
+background-repeat: no-repeat; 
+ background-attachment: fixed; 
+}
+
+.cabecalho{
+
+    padding: 2% 0% 0% 90%;
+
+}
+.cabecalho__menu{
+    display: flex;
+    gap: 40px;
+}
+.cabecalho__menu__link{
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(21, 35, 103);
+    text-decoration: none;
+}
+
+.titulo-destaque{
+
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    width: 1400px;
+    text-align: center;
+    color: rgb(8, 26, 58);
+}
+.texto{
+width: 980px;
+font-weight: 600;
+font-size: 13px;
+text-align: center;
+line-height: 25px;
+left: 250px;
+position: relative;
+}
+
+
+.textotempero{
+
+    width: 980px;
+    font-weight: 600;
+    font-size: 13px;
+    text-align: center;
+    line-height: 25px;
+    left: 240px;
+    position: absolute;
+    top:154%;
+    color: rgb(95, 74, 10);
+}
+
+.textokid{
+    width: 980px;
+    font-weight: 600;
+    font-size: 13px;
+    text-align: center;
+    line-height: 25px;
+    left: 240px;
+    position: absolute;
+    top: 45%;
+    color: rgb(10, 74, 95);}
+
+
+.textosabor{
+    width: 980px;
+    font-weight: 600;
+    font-size: 13px;
+    text-align: center;
+    line-height: 25px;
+    left: 265px;
+    position: absolute;
+    top:248%;
+    color: rgb(10, 95, 74);
+}
+
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+
+
+    }
+
+    .imagem1{
+    
+        left: 10%;
+        width: 491px;
+        height: 482px;
+        position: absolute;
+        top: 168%;
+    }
+
+    .imagem2{
+
+        left: 45%;
+        position: absolute;
+        top: 165%;
+        width: 257px;
+        height: 273px;
+
+
+    }
+
+    .imagem3{
+    left: 65%;
+    width: 491px;
+    height: 482px;
+    position: absolute;
+    top: 168%;
+    }
+
+   .imagem4{
+    left: 45%;
+    width: 250px;
+    height: 260px;
+    position: absolute;
+    top: 202%;
+
+   }
+
+   .kidflix{
+
+    left: 25%;
+    position: absolute;
+    top: 50%;
+    max-width: 45%;
+    max-height: 45%;
+    align-items: center;
+
+   }
+
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+
+   }
+
+
+.teste1{
+
+    width: 257px;
+    height: 273px;
+    position: absolute;
+    top: 260%;
+    left: 10%;
+}
+
+.teste2{
+
+    width: 257px;
+    height: 273px;
+    position: absolute;
+    top: 260%;
+    left: 30%;
+
+}
+
+.teste3{
+
+    width: 257px;
+    height: 273px;
+    position: absolute;
+    top: 260%;
+    left: 70%;
+
+}
+
+
+.teste4{
+
+    width: 257px;
+    height: 273px;
+    position: absolute;
+    top: 260%;
+    left: 49%;
+
+}
+
+
+
+
+
+
+
+
+
