@@ -1,40 +1,41 @@
-*{
-    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans+Narrow:wght@400;700&display=swap')
-    margin: 0;
+* {
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans+Narrow:wght@400;700&display=swap') margin: 0;
     padding: 0;
 }
 
-body{
+body {
 
-background-color: rgba(167, 145, 172, 0.549);
-max-width: 100.1rem;
-margin: 0 auto;
-font-family: 'Lato', sans-serif;
-background-size: cover;
-background-repeat: no-repeat; 
- background-attachment: fixed; 
- margin: 0;
+    background-color: rgba(167, 145, 172, 0.549);
+    max-width: 100.1rem;
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
 
 }
 
 
-.cabecalho{
+.cabecalho {
 
     padding: 2% 0% 0% 90%;
 
 }
-.cabecalho__menu{
+
+.cabecalho__menu {
     display: flex;
     gap: 40px;
 }
-.cabecalho__menu__link{
+
+.cabecalho__menu__link {
     font-size: 15px;
     font-weight: 600;
     color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
-.titulo-destaque{
+.titulo-destaque {
 
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
@@ -45,19 +46,19 @@ background-repeat: no-repeat;
     color: rgb(255, 255, 255);
 }
 
-.texto{
-width: 900px;
-font-weight: 600;
-font-size: 13px;
-text-align: center;
-line-height: 25px;
-position: relative;
-left: 20%;
+.texto {
+    width: 900px;
+    font-weight: 600;
+    font-size: 13px;
+    text-align: center;
+    line-height: 25px;
+    position: relative;
+    left: 20%;
 
 }
 
 
-.textotempero{
+.textotempero {
 
     width: 980px;
     font-weight: 600;
@@ -66,11 +67,11 @@ left: 20%;
     line-height: 25px;
     left: 240px;
     position: absolute;
-    top:154%;
+    top: 154%;
     color: rgb(95, 74, 10);
 }
 
-.textokid{
+.textokid {
     width: 980px;
     font-weight: 600;
     font-size: 13px;
@@ -79,10 +80,11 @@ left: 20%;
     left: 240px;
     position: absolute;
     top: 45%;
-    color: rgb(10, 74, 95);}
+    color: rgb(10, 74, 95);
+}
 
 
-.textosabor{
+.textosabor {
     width: 980px;
     font-weight: 600;
     font-size: 13px;
@@ -90,7 +92,7 @@ left: 20%;
     line-height: 25px;
     left: 265px;
     position: absolute;
-    top:248%;
+    top: 248%;
     color: rgb(10, 95, 74);
 }
 
@@ -103,46 +105,46 @@ img {
     flex-direction: column;
 
 
-    }
+}
 
-    .imagem1{
-    
-        left: 10%;
-        width: 491px;
-        height: 482px;
-        position: absolute;
-        top: 168%;
-    }
+.imagem1 {
 
-    .imagem2{
+    left: 10%;
+    width: 491px;
+    height: 482px;
+    position: absolute;
+    top: 168%;
+}
 
-        left: 45%;
-        position: absolute;
-        top: 165%;
-        width: 257px;
-        height: 273px;
+.imagem2 {
+
+    left: 45%;
+    position: absolute;
+    top: 165%;
+    width: 257px;
+    height: 273px;
 
 
-    }
+}
 
-    .imagem3{
+.imagem3 {
     left: 65%;
     width: 491px;
     height: 482px;
     position: absolute;
     top: 168%;
-    }
+}
 
-   .imagem4{
+.imagem4 {
     left: 45%;
     width: 250px;
     height: 260px;
     position: absolute;
     top: 202%;
 
-   }
+}
 
-   .kidflix{
+.kidflix {
 
     left: 25%;
     position: absolute;
@@ -151,17 +153,17 @@ img {
     max-height: 45%;
     align-items: center;
 
-   }
+}
 
 
-img{
+img {
     max-width: 100%;
     max-height: 100%;
 
-   }
+}
 
 
-.teste1{
+.teste1 {
 
     width: 257px;
     height: 273px;
@@ -170,7 +172,7 @@ img{
     left: 10%;
 }
 
-.teste2{
+.teste2 {
 
     width: 257px;
     height: 273px;
@@ -180,7 +182,7 @@ img{
 
 }
 
-.teste3{
+.teste3 {
 
     width: 257px;
     height: 273px;
@@ -191,7 +193,7 @@ img{
 }
 
 
-.teste4{
+.teste4 {
 
     width: 257px;
     height: 273px;
@@ -201,43 +203,41 @@ img{
 
 }
 
-.carrossel{
+.carrossel {
 
     width: 0;
 
 }
 
-.images{
+.images {
 
     width: 0;
- 
+
 }
 
 
-footer{
-background-color: #48435a;
-color: #fff;
-text-align: center;
-padding: 1px 0;
-position: fixed;
-bottom: 0;
-width: 100%;
+footer {
+    background-color: #48435a;
+    color: #fff;
+    text-align: center;
+    padding: 1px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 
-    }
-
-
+}
 
 
+.botao-navegacao img {
+
+    width: 0;
+}
 
 
 @media (max-width: 767px) {
-    
-    
-    body{
-    overflow-x: hidden;
-    overflow-y: hidden; /* Impede a rolagem vertical */
-    }
-    
+
+
+
     .cabecalho {
         position: relative;
         right: 10%;
@@ -252,11 +252,13 @@ width: 100%;
 
     .texto-container {
         position: relative;
-        max-width: 10px; /* Defina uma largura máxima para o texto */
-        margin: 0 auto; /* Centralize o texto */
+        max-width: 10px;
+        /* Defina uma largura máxima para o texto */
+        margin: 0 auto;
+        /* Centralize o texto */
         right: 45%;
     }
-    
+
     .texto {
         width: 450px;
         word-break: break-word;
@@ -267,7 +269,7 @@ width: 100%;
         color: rgb(8, 26, 58);
         position: absolute;
     }
-    
+
     .textotempero {
         width: 0px;
         font-weight: 0;
@@ -279,16 +281,16 @@ width: 100%;
         width: 0;
         font-weight: 0;
         font-size: 0;
-  
+
     }
 
     .textosabor {
         width: 0;
         font-weight: 0;
         font-size: 0;
-        
+
     }
-   
+
 
     img {
         max-width: 100%;
@@ -298,21 +300,28 @@ width: 100%;
 
     .carrossel {
         width: 60%;
-        white-space: nowrap; /* Evita que as imagens quebrem para a próxima linha */
-        -webkit-overflow-scrolling: touch; /* Suaviza o scroll em dispositivos iOS */
+        white-space: nowrap;
+        /* Evita que as imagens quebrem para a próxima linha */
+        -webkit-overflow-scrolling: touch;
+        /* Suaviza o scroll em dispositivos iOS */
         position: absolute;
         top: 50%;
         left: 20%;
-        overflow-x: hidden; /* Esconde a barra de rolagem horizontal */
-        scroll-snap-type: x mandatory; /* Cria pontos de parada ao rolar */
-    
+        overflow-x: hidden;
+        /* Esconde a barra de rolagem horizontal */
+        scroll-snap-type: x mandatory;
+        /* Cria pontos de parada ao rolar */
+
     }
-    
+
     .imagem {
-        display: inline-block; /* Coloca as imagens lado a lado */
-        margin-right: 20px; /* Espaçamento entre as imagens */
+        display: inline-block;
+        /* Coloca as imagens lado a lado */
+        margin-right: 20px;
+        /* Espaçamento entre as imagens */
         border-radius: 16px;
-        scroll-snap-align: start; /* Define a posição de parada ao rolar */
+        scroll-snap-align: start;
+        /* Define a posição de parada ao rolar */
 
     }
 
@@ -321,28 +330,25 @@ width: 100%;
         max-height: 100%;
     }
 
-}
+
+    .botao-navegacao {
+        position: absolute;
+        top: 67%;
+        padding: 10px;
+        border: none;
+        cursor: pointer;
+        width: 8%;
+        background-color: rgba(0, 0, 0, 0);
 
 
+    }
 
+    .botao-anterior {
+        right: 80%;
+        transform: rotate(180deg);
+    }
 
-.botao-navegacao {
-    position: absolute;
-    top: 67%;
-    padding: 10px;
-    border: none;
-    cursor: pointer;
-    width: 8%;
-    background-color: rgba(0, 0, 0, 0);
-
-    
-}
-
-.botao-anterior {
-    right: 80%;
-    transform: rotate(180deg);
-}
-
-.botao-proximo {
-    right: 16%;
+    .botao-proximo {
+        right: 16%;
+    }
 }
