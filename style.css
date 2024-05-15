@@ -14,7 +14,7 @@ body {
     background-image: url("imagens/670.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: relative;
+    background-attachment: fixed;
     box-sizing: border-box;
     color: rgb(0, 0, 0);
     position: fixed;
@@ -35,7 +35,20 @@ body {
     color: rgb(53, 21, 103);
     font-family: 'Space-Mono';
     text-decoration: none;
+    border: 2px solid #dad4e8;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    background-color: #ffffff;
+
 }
+
+.cabecalho__menu__link:hover {
+    background-color: #dad4e8;
+}
+
+
+
 
 .apresentacao {
     padding: 8% 29%;
@@ -93,7 +106,7 @@ body {
     border-radius: 18px;
     font-size: 15px;
     font-weight: 600;
-    padding: 9px 4px 3px 4px;
+    padding: 9px 4px 9px 4px;
     text-decoration: none;
     color: rgb(109, 34, 130);
     font-family: 'Montserrat', sans-serif;
@@ -102,7 +115,7 @@ body {
 }
 
 .apresentacao__links__link:hover {
-    background-color: #ffffff;
+    background-color: #ded3f8;
 }
 
 
