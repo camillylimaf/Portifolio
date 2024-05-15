@@ -6,15 +6,17 @@
 
 body{
 
-background-color: rgb(248, 253, 248);
+background-color: rgba(167, 145, 172, 0.549);
 max-width: 100.1rem;
 margin: 0 auto;
 font-family: 'Lato', sans-serif;
-background-image: url("#"); 
 background-size: cover;
 background-repeat: no-repeat; 
  background-attachment: fixed; 
+ margin: 0;
+
 }
+
 
 .cabecalho{
 
@@ -28,7 +30,7 @@ background-repeat: no-repeat;
 .cabecalho__menu__link{
     font-size: 15px;
     font-weight: 600;
-    color: rgb(21, 35, 103);
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
@@ -40,16 +42,18 @@ background-repeat: no-repeat;
     font-size: 20px;
     width: 1400px;
     text-align: center;
-    color: rgb(8, 26, 58);
+    color: rgb(255, 255, 255);
 }
+
 .texto{
-width: 980px;
+width: 900px;
 font-weight: 600;
 font-size: 13px;
 text-align: center;
 line-height: 25px;
-left: 250px;
 position: relative;
+left: 20%;
+
 }
 
 
@@ -197,11 +201,148 @@ img{
 
 }
 
+.carrossel{
+
+    width: 0;
+
+}
+
+.images{
+
+    width: 0;
+ 
+}
+
+
+footer{
+background-color: #48435a;
+color: #fff;
+text-align: center;
+padding: 1px 0;
+position: fixed;
+bottom: 0;
+width: 100%;
+
+    }
 
 
 
 
 
 
+@media (max-width: 767px) {
+    
+    
+    body{
+    overflow-x: hidden;
+    overflow-y: hidden; /* Impede a rolagem vertical */
+    }
+    
+    .cabecalho {
+        position: relative;
+        right: 10%;
+        margin-top: 0%;
+    }
+
+    .titulo-destaque {
+        right: 90%;
+        position: relative;
+        font-size: small;
+    }
+
+    .texto-container {
+        position: relative;
+        max-width: 10px; /* Defina uma largura máxima para o texto */
+        margin: 0 auto; /* Centralize o texto */
+        right: 45%;
+    }
+    
+    .texto {
+        width: 450px;
+        word-break: break-word;
+        font-weight: 600;
+        font-size: 13px;
+        text-align: center;
+        line-height: 25px;
+        color: rgb(8, 26, 58);
+        position: absolute;
+    }
+    
+    .textotempero {
+        width: 0px;
+        font-weight: 0;
+        font-size: 0;
+
+    }
+
+    .textokid {
+        width: 0;
+        font-weight: 0;
+        font-size: 0;
+  
+    }
+
+    .textosabor {
+        width: 0;
+        font-weight: 0;
+        font-size: 0;
+        
+    }
+   
+
+    img {
+        max-width: 100%;
+        max-height: 100%;
+    }
 
 
+    .carrossel {
+        width: 60%;
+        white-space: nowrap; /* Evita que as imagens quebrem para a próxima linha */
+        -webkit-overflow-scrolling: touch; /* Suaviza o scroll em dispositivos iOS */
+        position: absolute;
+        top: 50%;
+        left: 20%;
+        overflow-x: hidden; /* Esconde a barra de rolagem horizontal */
+        scroll-snap-type: x mandatory; /* Cria pontos de parada ao rolar */
+    
+    }
+    
+    .imagem {
+        display: inline-block; /* Coloca as imagens lado a lado */
+        margin-right: 20px; /* Espaçamento entre as imagens */
+        border-radius: 16px;
+        scroll-snap-align: start; /* Define a posição de parada ao rolar */
+
+    }
+
+    .imagem img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+}
+
+
+
+
+.botao-navegacao {
+    position: absolute;
+    top: 67%;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 8%;
+    background-color: rgba(0, 0, 0, 0);
+
+    
+}
+
+.botao-anterior {
+    right: 80%;
+    transform: rotate(180deg);
+}
+
+.botao-proximo {
+    right: 16%;
+}
