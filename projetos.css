@@ -1,19 +1,20 @@
 * {
-    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans+Narrow:wght@400;700&display=swap') margin: 0;
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans+Narrow:wght@400;700&display=swap') 
+    margin: 0;
     padding: 0;
 }
 
 body {
 
     background-color: rgba(167, 145, 172, 0.549);
-    max-width: 100.1rem;
-    margin: 0 auto;
     font-family: 'Lato', sans-serif;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    margin: 0;
-
+    box-sizing: border-box;
+    width: 100%;
+    max-height: 100%;
+    margin: 0 auto; /* Centraliza o conteúdo horizontalmente */
 }
 
 
@@ -41,43 +42,45 @@ body {
     font-weight: 400;
     font-style: normal;
     font-size: 20px;
-    width: 1400px;
+    width: 100%;
     text-align: center;
     color: rgb(255, 255, 255);
+    position: absolute;
 }
 
 .texto {
-    width: 900px;
+    width: 100%;
     font-weight: 600;
-    font-size: 13px;
+    font-size: 0.9rem;
     text-align: center;
     line-height: 25px;
-    position: relative;
-    left: 20%;
-
+    position: absolute;
+    margin-top: 5%;
+    left: 0%;
+    
 }
 
 
 .textotempero {
 
-    width: 980px;
+    width: 100%;
     font-weight: 600;
     font-size: 13px;
     text-align: center;
     line-height: 25px;
-    left: 240px;
+    left: 0%;
     position: absolute;
-    top: 154%;
+    top: 155%;
     color: rgb(95, 74, 10);
 }
 
 .textokid {
-    width: 980px;
+    width: 100%;
     font-weight: 600;
     font-size: 13px;
     text-align: center;
     line-height: 25px;
-    left: 240px;
+    right: 3%;
     position: absolute;
     top: 45%;
     color: rgb(10, 74, 95);
@@ -85,25 +88,25 @@ body {
 
 
 .textosabor {
-    width: 980px;
+    width: 100%;
     font-weight: 600;
     font-size: 13px;
     text-align: center;
     line-height: 25px;
-    left: 265px;
+    left: 0%;
     position: absolute;
-    top: 248%;
+    top: 244%;
     color: rgb(10, 95, 74);
 }
 
 
 img {
     max-width: 100%;
-    max-height: 100%;
+    height: auto;
     border-radius: 16px;
-    display: flex;
+    display: block;
     flex-direction: column;
-
+    margin: 0 auto;
 
 }
 
@@ -144,7 +147,7 @@ img {
 
 }
 
-.kidflix {
+.imagem5 {
 
     left: 25%;
     position: absolute;
@@ -156,199 +159,219 @@ img {
 }
 
 
-img {
+ img {
     max-width: 100%;
     max-height: 100%;
 
 }
 
 
-.teste1 {
+.imagem6 {
 
     width: 257px;
     height: 273px;
     position: absolute;
-    top: 260%;
+    top: 255%;
     left: 10%;
 }
 
-.teste2 {
+.imagem7 {
 
     width: 257px;
     height: 273px;
     position: absolute;
-    top: 260%;
+    top: 255%;
     left: 30%;
 
 }
 
-.teste3 {
+.imagem8 {
 
     width: 257px;
     height: 273px;
     position: absolute;
-    top: 260%;
+    top: 255%;
     left: 70%;
 
 }
 
 
-.teste4 {
+.imagem9 {
 
     width: 257px;
     height: 273px;
     position: absolute;
-    top: 260%;
+    top: 255%;
     left: 49%;
-
-}
-
-.carrossel {
-
-    width: 0;
-
-}
-
-.images {
-
-    width: 0;
 
 }
 
 
 footer {
-    background-color: #48435a;
+    background-color: #48435afc;
     color: #fff;
     text-align: center;
-    padding: 1px 0;
+    padding: 0.1%;
     position: fixed;
     bottom: 0;
     width: 100%;
-
+    margin-top: 200%;
 }
 
 
-.botao-navegacao img {
-
-    width: 0;
+.botao-navegacao img,
+        .carrossel-container,
+        .carrossel,
+        .image,
+        .button,
+        .botao-navegacao {
+        visibility: hidden;
 }
 
 
-@media (max-width: 1200px) {
-
-
-
-    .cabecalho {
-        position: relative;
-        right: 10%;
-        margin-top: 0%;
-    }
-
+@media screen and (max-width: 1020px) {
     .titulo-destaque {
-        right: 90%;
-        position: relative;
-        font-size: small;
+        font-size: 1.0rem; /* Reduzindo o tamanho da fonte */
     }
-
-    .texto-container {
-        position: relative;
-        max-width: 10px;
-        /* Defina uma largura máxima para o texto */
-        margin: 0 auto;
-        /* Centralize o texto */
-        right: 45%;
-    }
-
     .texto {
-        width: 450px;
-        word-break: break-word;
-        font-weight: 600;
-        font-size: 13px;
-        text-align: center;
-        line-height: 25px;
-        color: rgb(8, 26, 58);
-        position: absolute;
+        font-size: 0.8rem; /* Reduzindo o tamanho da fonte */
+        line-height: 20px; /* Reduzindo a altura da linha */
+        margin-top: 15%;
     }
-
-    .textotempero {
-        width: 0px;
-        font-weight: 0;
-        font-size: 0;
+   
+    .textotempero, .textokid, .textosabor, .imagem1, .imagem2, .imagem3, .imagem4, .imagem5, .imagem6,.imagem7, .imagem8, .imagem9{
+    visibility: hidden;
 
     }
-
-    .textokid {
-        width: 0;
-        font-weight: 0;
-        font-size: 0;
-
+    .carrossel-container {
+        position: relative;
+        width: 70%;
+        overflow: hidden;
+        border-radius: 10px;
+        padding-top: 70%;
+        left: 15%;
     }
-
-    .textosabor {
-        width: 0;
-        font-weight: 0;
-        font-size: 0;
-
-    }
-
-
-    img {
-        max-width: 100%;
-        max-height: 100%;
-    }
-
-
+    
+    /* Estilos para a faixa do carrossel */
     .carrossel {
-        width: 60%;
-        white-space: nowrap;
-        /* Evita que as imagens quebrem para a próxima linha */
-        -webkit-overflow-scrolling: touch;
-        /* Suaviza o scroll em dispositivos iOS */
-        position: absolute;
-        top: 50%;
-        left: 20%;
-        overflow-x: hidden;
-        /* Esconde a barra de rolagem horizontal */
+        display: flex;
+        overflow-x: auto;
         scroll-snap-type: x mandatory;
-        /* Cria pontos de parada ao rolar */
-
+        -webkit-overflow-scrolling: touch;
+        scroll-behavior: smooth;
+        
     }
-
-    .imagem {
-        display: inline-block;
-        /* Coloca as imagens lado a lado */
-        margin-right: 20px;
-        /* Espaçamento entre as imagens */
-        border-radius: 16px;
-        scroll-snap-align: start;
-        /* Define a posição de parada ao rolar */
-
+    
+    /* Ocultar a barra de rolagem do carrossel */
+    .carrossel::-webkit-scrollbar {
+        display: none;
     }
-
-    .imagem img {
-        max-width: 100%;
-        max-height: 100%;
+    
+    /* Estilos para cada imagem dentro do carrossel */
+    .carrossel .image {
+        flex: 0 0 100%;
+        scroll-snap-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    .carrossel .image img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
     }
 
 
     .botao-navegacao {
-        position: absolute;
-        top: 67%;
-        padding: 10px;
-        border: none;
-        cursor: pointer;
-        width: 8%;
-        background-color: rgba(0, 0, 0, 0);
-
-
+        background-color: transparent; /* Define o fundo transparente */
+        border: none; /* Remove a borda */
+        cursor: pointer; /* Altera o cursor ao passar por cima */
+        padding: 0; /* Remove o preenchimento interno */
+        visibility: visible;
+        position: absolute; /* Use position: absolute para permitir o ajuste da posição */
     }
-
+    
+    .botao-navegacao img {
+        width: 30%; /* Define a largura da imagem */
+        height: auto; /* Define a altura da imagem */
+        visibility: visible;
+    }
+    
+    .botao-navegacao:focus {
+        outline: none; /* Remove o contorno ao focar */
+        visibility: visible;
+    }
+    
+    /* Estilos para o botão anterior */
     .botao-anterior {
-        right: 80%;
-        transform: rotate(180deg);
+        transform: scaleX(-1); /* Espelha a imagem horizontalmente */
+        visibility: visible;
+        top: 65%; /* Ajuste a posição vertical */
+        right: 80%; /* Ajuste a posição horizontal */
     }
-
+    
+    /* Estilos para o botão próximo */
     .botao-proximo {
-        right: 16%;
+        top: 64%; /* Ajuste a posição vertical */
+        left: 80%; /* Ajuste a posição horizontal */
     }
+    
+
+
+@media screen and (max-width: 768px) {
+
+
+    .textotempero, .textokid, .textosabor, .imagem1, .imagem2, .imagem3, .imagem4, .imagem5, .imagem6,.imagem7, .imagem8, .imagem9{
+        visibility: hidden;}
+
+    .cabecalho {
+        padding: 4% 0% 0% 85%; /* Ajustando o preenchimento do cabeçalho */
+    }
+    .cabecalho__menu {
+        flex-direction: column; /* Alterando para empilhar os itens do menu */
+        gap: 20px; /* Reduzindo o espaço entre os itens */
+    }
+    .cabecalho__menu__link {
+        font-size: 1.0rem; /* Reduzindo o tamanho da fonte do menu */
+    }
+    /* Outros ajustes necessários para telas menores */
+
+    
+.texto {
+        font-size: 0.8rem; /* Reduzindo o tamanho da fonte */
+        line-height: 20px; /* Reduzindo a altura da linha */
+        margin-top: 15%;
 }
+
+
+.carrossel-container {
+    position: relative;
+    visibility: visible;
+
+}
+
+.carrossel {
+    display: flex;
+    overflow-x: hidden; /* Esconde a barra de rolagem horizontal */
+    scroll-snap-type: x mandatory; /* Cria pontos de parada ao rolar */
+    visibility: visible;
+    -webkit-overflow-scrolling: touch; /* Suaviza o scroll em dispositivos iOS */
+}
+
+.image {
+    flex: 0 0 auto; /* Evita que as imagens sejam redimensionadas */
+    scroll-snap-align: start; /* Define a posição de parada ao rolar */
+    margin-right: 20px; /* Espaçamento entre as imagens */
+    border-radius: 16px;
+    visibility: visible;
+
+}
+
+.image img {
+    max-width: 100%;
+    max-height: 100%;
+}
+}
+
